@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DSH Connect Volcengine",
+    "description": "Connects Volcengine Ark models to DSH: one provider, a four-panel settings card (models / access / capabilities / diagnostics), upstream catalog refresh with a per-model context budget, and an opt-in autonomous image tool."
+  }
+}

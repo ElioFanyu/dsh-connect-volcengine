@@ -1,0 +1,7 @@
+# Register the Volcengine Ark provider without changing the profile's default
+# model. The route authenticates with an Ark API key that the plugin card writes
+# into the host credential store; the config file only ever holds the reference
+# name (default ARK_API_KEY).
+- insert:
+    - id: dsh-connect-volcengine
+      name: dsh-connect-volcengine

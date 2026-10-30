@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "displayName": "DSH Connect Volcengine",
-  "description": "把火山方舟（Ark）的模型接入 DeepSeek Harness：一个 provider、四栏设置卡片（模型 / 接入 / 能力 / 诊断）、上游目录刷新与逐模型上下文预算，另提供默认关闭的自主生图工具。",
+  "description": "把火山方舟（Ark）的模型接入 DeepSeek Harness：一个 provider、逐模型「适合干什么」说明、账号池、上游目录刷新与逐模型上下文预算，另提供默认关闭的自主生图工具。",
   "license": "MIT",
   "engines": {
     "node": "^22.19.0 || >=24.0.0"
@@ -35,6 +35,7 @@
   "files": [
     "lib/index.js",
     "lib/client.js",
+    "lib/model-notes.js",
     "lib/signature.js",
     "cordis.patch.yml",
     "locale/*.json",

@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "DSH Connect Volcengine",
-    "description": "把火山方舟（Ark）的模型接入 DSH：一个 provider、四栏设置卡片（模型 / 接入 / 能力 / 诊断）、上游目录刷新与逐模型上下文预算，另提供默认关闭的自主生图工具。"
+    "description": "把火山方舟（Ark）的模型接入 DSH：一个 provider、逐模型「适合干什么」说明、账号池、上游目录刷新与逐模型上下文预算，另提供默认关闭的自主生图工具。"
   }
 }
